@@ -1,0 +1,39 @@
+body {
+    background: rgb(165, 159, 248);
+}
+.ava {
+    widht: 100px;
+    border-radius: 50px;
+    box-shadow: 20px 20px 44px rgba(0,0,0,025);
+    display: block;
+    margin: 0 auto;
+}
+.container {
+        max-width: 900px;
+        margin: auto;
+}
+.table {
+    
+font-size: 24px;
+width: 480px;
+text-align: left;
+border-collapse: collapse;
+background: #ebdfc5;
+margin: 20px;
+}
+th {
+font-weight:normal;
+font-size: 14px;
+background: #4758f0;
+color: #ebdfc5;
+padding: 15px 10px 10px;
+}
+td {
+padding: 12px;
+border-bottom: 1px solid #ccc;
+transition: all 0.5s linear;
+}
+tr:hover td{
+padding: 30px 12px;
+background: rgb(84, 100, 243);
+}
