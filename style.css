@@ -1,5 +1,5 @@
 body {
-    background: rgb(190, 231, 200);
+    background: url(12.jpg);
 }
 .ava {
     widht: 100px;
@@ -17,10 +17,10 @@ body {
 .table {
     
 font-size: 32px;
-width: 580px;
+width: 480px;
 text-align: center;
 border-collapse: collapse;
-background: #ebdfc5;
+background: #070707;
 margin: 50 auto;
 }
 th {
@@ -31,13 +31,14 @@ color: #ebdfc5;
 padding: 15px 10px 10px;
 }
 td {
-padding: 12px;
+padding: 10px;
 border-bottom: 1px solid #ccc;
 transition: all 0.5s linear;
 text-align: center;
+color: #0f220f;
  
 }
 tr:hover td{
 padding: 30px 12px;
-background: rgb(136, 224, 188);
+background: rgb(221, 240, 232);
 }
