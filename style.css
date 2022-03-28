@@ -1,5 +1,5 @@
 body {
-    background: rgb(165, 159, 248);
+    background: rgb(190, 231, 200);
 }
 .ava {
     widht: 100px;
@@ -7,6 +7,8 @@ body {
     box-shadow: 20px 20px 44px rgba(0,0,0,025);
     display: block;
     margin: 30 auto;
+
+} 
 }
 .container {
         max-width: 900px;
@@ -14,8 +16,8 @@ body {
 }
 .table {
     
-font-size: 24px;
-width: 480px;
+font-size: 32px;
+width: 580px;
 text-align: center;
 border-collapse: collapse;
 background: #ebdfc5;
@@ -23,8 +25,8 @@ margin: 50 auto;
 }
 th {
 font-weight:normal;
-font-size: 14px;
-background: #4758f0;
+font-size: 24px;
+background: #9cecdb;
 color: #ebdfc5;
 padding: 15px 10px 10px;
 }
@@ -37,5 +39,5 @@ text-align: center;
 }
 tr:hover td{
 padding: 30px 12px;
-background: rgb(84, 100, 243);
+background: rgb(136, 224, 188);
 }
