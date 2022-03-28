@@ -4,13 +4,13 @@ body {
 .ava {
     widht: 100px;
     border-radius: 50px;
-    box-shadow: 15px 15px 40px rgba(0,0,0,025);
+    box-shadow: 20px 20px 44px rgba(0,0,0,025);
     display: block;
-    margin: 0 auto;
+    margin: 30 auto;
 }
 .container {
         max-width: 900px;
-        margin: auto;
+        margin: 50 auto;
 }
 .table {
     
@@ -19,7 +19,7 @@ width: 480px;
 text-align: left;
 border-collapse: collapse;
 background: #ebdfc5;
-margin: 20px;
+margin: 50 auto;
 }
 th {
 font-weight:normal;
