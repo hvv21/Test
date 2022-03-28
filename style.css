@@ -1,5 +1,7 @@
 body {
     background: url(12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .ava {
     widht: 100px;
