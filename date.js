@@ -1,6 +1,6 @@
-var todayDate = new Date();
-var currYear = todayDate.getFullYear();
-var currMonth = todayDate.getMonth()+1;
-var currDay = todayDate.getDate();
+let todayDate = new Date();
+let currYear = todayDate.getFullYear();
+let currMonth = todayDate.getMonth()+1;
+let currDay = todayDate.getDate();
 document.write("Сьогодні: ");
 document.write(currDay + "/" + currMonth + "/" + currYear);
