@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA 2022</title>
+</head>
+<body>
+  <script>
+    var rand = 22;
+var input = prompt("Введите пароль: ");
+
+while (input != rand) {
+	
+	alert("Неверно, попробуйте еще...");
+	input = prompt("Введите пароль: ");
+}
+
+  </script>
+  <button type="submit" id="submit" onclick="alert(arr)">Жеребьевка</button>
+
+  <script>
+  var arr = ['Влад','Дима','Антон','Виталик','Франк','Рыжий']; 
+  var n = arr.length; var tempArr = [];
+
+ for ( var i = 0; i < n-1; i++ ) {
+     tempArr.push(arr.splice(Math.floor(Math.random()*arr.length),1)[0]);
+ }
+ tempArr.push(arr[0]); 
+ arr=tempArr; 
+  
+  </script>
+  
+
+  <h1></h1> 
+  <img src="fifa.jpg" class="ava"> 
+    <table>
+        <tr>
+          <th colspan="2">ИГРОК</th>
+          <th>Leag</th>
+          <th> Win L</th>
+          <th> Cup</th>
+          <th> Win C</th>
+         
+        </tr>
+        <tr>
+          <td><img src="frank.jpg" class="ava"></td>
+          
+          <td></td>
+          <td>5</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td><img src="serg.jpg" class="ava"></td> 
+          <td></td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td><img src="vlad.jpg" class="ava"></td>
+          <td></td>
+          <td>12</td>
+          <td>4</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td><img src="dima.jpg" class="ava"></td>
+          <td></td>
+          <td>12</td>
+          <td>0</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        <tr>
+          <td><img src="vital.jpg" class="ava"></td>
+          <td></td>
+          <td>12</td>
+          <td>1</td>
+          <td>1</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td><img src="anton.jpg" class="ava"></td>
+          <td></td>
+          <td>9</td>
+          <td>7</td>
+          <td>1</td>
+          <td>0</td>
+        </tr>
+        </table>
+
+        
+        <link href="fifa.css" rel="stylesheet" type="text/css">
+</body>
+</html>
